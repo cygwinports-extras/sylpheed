@@ -1,0 +1,173 @@
+sylpheed
+------------------------------------------
+Sylpheed is a simple, lightweight but featureful, and easy-to-use e-mail
+client (mailer, MUA), based on the GTK toolkit.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  compface-1.5.2-1
+  gpgme-1.0.2-1
+  gtk2-x11-2.8.13-1
+  gtkspell-2.0.11-2
+  libX11_6-1.0.0-2
+  libaspell15-0.50.3-1
+  openssl-0.9.8a-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.0-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://sylpheed.good-day.net/en/
+
+Canonical download:
+  http://sylpheed.good-day.net/sylpheed/
+
+-------------------------------------------
+
+Build instructions:
+  unpack sylpheed-2.2.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./sylpheed-2.2.3-X.sh all
+
+This will create:
+  /usr/src/sylpheed-2.2.3-X-src.tar.bz2
+  /usr/src/sylpheed-2.2.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/sylpheed.exe
+  /usr/share/doc/Cygwin/sylpheed-2.2.3.README
+  /usr/share/doc/sylpheed-2.2.3/ABOUT-NLS
+  /usr/share/doc/sylpheed-2.2.3/AUTHORS
+  /usr/share/doc/sylpheed-2.2.3/COPYING
+  /usr/share/doc/sylpheed-2.2.3/COPYING.LIB
+  /usr/share/doc/sylpheed-2.2.3/ChangeLog
+  /usr/share/doc/sylpheed-2.2.3/INSTALL
+  /usr/share/doc/sylpheed-2.2.3/LICENSE
+  /usr/share/doc/sylpheed-2.2.3/NEWS
+  /usr/share/doc/sylpheed-2.2.3/README
+  /usr/share/doc/sylpheed-2.2.3/TODO
+  /usr/share/locale/bg/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/cs/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/da/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/de/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/el/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/es/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/et/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/fr/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/gl/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/hr/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/hu/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/it/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/ja/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/ko/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/lt/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/nl/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/pl/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/ro/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/ru/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/sk/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/sl/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/sr/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/sv/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/tr/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/uk/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/vi/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/sylpheed.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/sylpheed.mo
+  /usr/share/sylpheed/faq/de/sylpheed-faq-1.html
+  /usr/share/sylpheed/faq/de/sylpheed-faq-2.html
+  /usr/share/sylpheed/faq/de/sylpheed-faq-3.html
+  /usr/share/sylpheed/faq/de/sylpheed-faq.html
+  /usr/share/sylpheed/faq/en/sylpheed-faq-1.html
+  /usr/share/sylpheed/faq/en/sylpheed-faq-2.html
+  /usr/share/sylpheed/faq/en/sylpheed-faq-3.html
+  /usr/share/sylpheed/faq/en/sylpheed-faq.html
+  /usr/share/sylpheed/faq/es/sylpheed-faq-1.html
+  /usr/share/sylpheed/faq/es/sylpheed-faq-2.html
+  /usr/share/sylpheed/faq/es/sylpheed-faq-3.html
+  /usr/share/sylpheed/faq/es/sylpheed-faq.html
+  /usr/share/sylpheed/faq/fr/sylpheed-faq-1.html
+  /usr/share/sylpheed/faq/fr/sylpheed-faq-2.html
+  /usr/share/sylpheed/faq/fr/sylpheed-faq-3.html
+  /usr/share/sylpheed/faq/fr/sylpheed-faq.html
+  /usr/share/sylpheed/faq/it/sylpheed-faq-1.html
+  /usr/share/sylpheed/faq/it/sylpheed-faq-2.html
+  /usr/share/sylpheed/faq/it/sylpheed-faq-3.html
+  /usr/share/sylpheed/faq/it/sylpheed-faq.html
+  /usr/share/sylpheed/manual/en/sylpheed-1.html
+  /usr/share/sylpheed/manual/en/sylpheed-10.html
+  /usr/share/sylpheed/manual/en/sylpheed-11.html
+  /usr/share/sylpheed/manual/en/sylpheed-12.html
+  /usr/share/sylpheed/manual/en/sylpheed-13.html
+  /usr/share/sylpheed/manual/en/sylpheed-14.html
+  /usr/share/sylpheed/manual/en/sylpheed-15.html
+  /usr/share/sylpheed/manual/en/sylpheed-16.html
+  /usr/share/sylpheed/manual/en/sylpheed-17.html
+  /usr/share/sylpheed/manual/en/sylpheed-18.html
+  /usr/share/sylpheed/manual/en/sylpheed-19.html
+  /usr/share/sylpheed/manual/en/sylpheed-2.html
+  /usr/share/sylpheed/manual/en/sylpheed-20.html
+  /usr/share/sylpheed/manual/en/sylpheed-3.html
+  /usr/share/sylpheed/manual/en/sylpheed-4.html
+  /usr/share/sylpheed/manual/en/sylpheed-5.html
+  /usr/share/sylpheed/manual/en/sylpheed-6.html
+  /usr/share/sylpheed/manual/en/sylpheed-7.html
+  /usr/share/sylpheed/manual/en/sylpheed-8.html
+  /usr/share/sylpheed/manual/en/sylpheed-9.html
+  /usr/share/sylpheed/manual/en/sylpheed.html
+  /usr/share/sylpheed/manual/ja/sylpheed-1.html
+  /usr/share/sylpheed/manual/ja/sylpheed-10.html
+  /usr/share/sylpheed/manual/ja/sylpheed-11.html
+  /usr/share/sylpheed/manual/ja/sylpheed-12.html
+  /usr/share/sylpheed/manual/ja/sylpheed-13.html
+  /usr/share/sylpheed/manual/ja/sylpheed-14.html
+  /usr/share/sylpheed/manual/ja/sylpheed-15.html
+  /usr/share/sylpheed/manual/ja/sylpheed-16.html
+  /usr/share/sylpheed/manual/ja/sylpheed-17.html
+  /usr/share/sylpheed/manual/ja/sylpheed-18.html
+  /usr/share/sylpheed/manual/ja/sylpheed-19.html
+  /usr/share/sylpheed/manual/ja/sylpheed-2.html
+  /usr/share/sylpheed/manual/ja/sylpheed-20.html
+  /usr/share/sylpheed/manual/ja/sylpheed-21.html
+  /usr/share/sylpheed/manual/ja/sylpheed-22.html
+  /usr/share/sylpheed/manual/ja/sylpheed-3.html
+  /usr/share/sylpheed/manual/ja/sylpheed-4.html
+  /usr/share/sylpheed/manual/ja/sylpheed-5.html
+  /usr/share/sylpheed/manual/ja/sylpheed-6.html
+  /usr/share/sylpheed/manual/ja/sylpheed-7.html
+  /usr/share/sylpheed/manual/ja/sylpheed-8.html
+  /usr/share/sylpheed/manual/ja/sylpheed-9.html
+  /usr/share/sylpheed/manual/ja/sylpheed.html
+  /usr/share/sylpheed/manual/ja/sylpheed.sgml
+
+------------------
+
+Port Notes:
+
+----- version 2.2.3-1 -----
+Version bump.
+Source package is now cygport driven.
+
+----- version 2.2.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
