@@ -4,28 +4,34 @@ Sylpheed is a simple, lightweight but featureful, and easy-to-use e-mail
 client (mailer, MUA), based on the GTK toolkit.
 
 Runtime requirements:
-  cygwin-1.5.19-4
+  cygwin-1.5.24-2
   compface-1.5.2-1
-  gpgme-1.0.2-1
-  gtk2-x11-2.8.13-1
+  gdk-pixbuf2-2.10.9-1
+  glib2-2.12.9-1
+  gtk2-x11-2.10.9-1
   gtkspell-2.0.11-2
-  libX11_6-1.0.0-2
   libaspell15-0.50.3-1
-  openssl-0.9.8a-1
+  libcairo2-1.2.6-1
+  libgpgme11-1.1.2-1
+  libiconv2-1.11-1
+  libintl8-0.15-1
+  minires-1.01-1
+  openssl-0.9.8d-1
+  pango-1.14.10-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.1.0-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.20-2
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.4-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-4
 
 Canonical website:
   http://sylpheed.good-day.net/en/
@@ -36,32 +42,33 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack sylpheed-2.2.3-X-src.tar.bz2
+  unpack sylpheed-2.4.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./sylpheed-2.2.3-X.sh all
+  cygport ./sylpheed-2.4.0-X.cygport all
 
 This will create:
-  /usr/src/sylpheed-2.2.3-X-src.tar.bz2
-  /usr/src/sylpheed-2.2.3-X.tar.bz2
+  /usr/src/sylpheed-2.4.0-X-src.tar.bz2
+  /usr/src/sylpheed-2.4.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/sylpheed.exe
-  /usr/share/doc/Cygwin/sylpheed-2.2.3.README
-  /usr/share/doc/sylpheed-2.2.3/ABOUT-NLS
-  /usr/share/doc/sylpheed-2.2.3/AUTHORS
-  /usr/share/doc/sylpheed-2.2.3/COPYING
-  /usr/share/doc/sylpheed-2.2.3/COPYING.LIB
-  /usr/share/doc/sylpheed-2.2.3/ChangeLog
-  /usr/share/doc/sylpheed-2.2.3/INSTALL
-  /usr/share/doc/sylpheed-2.2.3/LICENSE
-  /usr/share/doc/sylpheed-2.2.3/NEWS
-  /usr/share/doc/sylpheed-2.2.3/README
-  /usr/share/doc/sylpheed-2.2.3/TODO
+  /usr/share/doc/Cygwin/sylpheed-2.4.0.README
+  /usr/share/doc/sylpheed-2.4.0/ABOUT-NLS
+  /usr/share/doc/sylpheed-2.4.0/AUTHORS
+  /usr/share/doc/sylpheed-2.4.0/COPYING
+  /usr/share/doc/sylpheed-2.4.0/COPYING.LIB
+  /usr/share/doc/sylpheed-2.4.0/ChangeLog
+  /usr/share/doc/sylpheed-2.4.0/INSTALL
+  /usr/share/doc/sylpheed-2.4.0/LICENSE
+  /usr/share/doc/sylpheed-2.4.0/NEWS
+  /usr/share/doc/sylpheed-2.4.0/README
+  /usr/share/doc/sylpheed-2.4.0/TODO
+  /usr/share/locale/be/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/bg/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/cs/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/da/LC_MESSAGES/sylpheed.mo
@@ -147,6 +154,8 @@ Files included in the binary package:
   /usr/share/sylpheed/manual/ja/sylpheed-20.html
   /usr/share/sylpheed/manual/ja/sylpheed-21.html
   /usr/share/sylpheed/manual/ja/sylpheed-22.html
+  /usr/share/sylpheed/manual/ja/sylpheed-23.html
+  /usr/share/sylpheed/manual/ja/sylpheed-24.html
   /usr/share/sylpheed/manual/ja/sylpheed-3.html
   /usr/share/sylpheed/manual/ja/sylpheed-4.html
   /usr/share/sylpheed/manual/ja/sylpheed-5.html
@@ -160,6 +169,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.4.0-1 -----
+Version bump.
 
 ----- version 2.2.3-1 -----
 Version bump.

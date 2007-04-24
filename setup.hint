@@ -1,5 +1,5 @@
 category: Gnome Mail
-requires: cygwin compface libX11_6 libgpgme11 gtk2-x11 gtkspell libaspell15 openssl
+requires: cygwin compface glib2 gtk2-x11 gtkspell libaspell15 libcairo2 libgpgme11 libiconv2 libintl8 minires openssl pango
 sdesc: "Simple but featureful GTK email client"
 ldesc: "Sylpheed is a simple, lightweight but featureful, and
 easy-to-use e-mail client (mailer, MUA), based on the GTK toolkit."
