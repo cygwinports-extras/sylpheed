@@ -6,17 +6,17 @@ client (mailer, MUA), based on the GTK toolkit.
 Runtime requirements:
   cygwin-1.5.24-2
   compface-1.5.2-1
-  gdk-pixbuf2-2.10.13-1
-  glib2-2.12.12-2
-  gtk2-x11-2.10.13-1
+  gdk-pixbuf2-2.10.14-1
+  glib2-2.12.13-1
+  gtk2-x11-2.10.14-1
   gtkspell-2.0.11-2
   libaspell15-0.50.3-1
-  libcairo2-1.2.8-1
-  libgpgme11-1.1.2-1
+  libcairo2-1.4.10-1
+  libgpgme11-1.1.5-1
   libiconv2-1.11-1
   libintl8-0.15-1
   minires-1.01-1
-  openssl-0.9.8d-1
+  openssl-0.9.8e-3
   pango-1.16.4-1
 
 Build requirements:
@@ -25,7 +25,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.5-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   libtool1.5-1.5.23a-2
@@ -42,32 +42,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack sylpheed-2.4.3-X-src.tar.bz2
+  unpack sylpheed-2.4.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./sylpheed-2.4.3-X.cygport all
+  cygport ./sylpheed-2.4.4-X.cygport all
 
 This will create:
-  /usr/src/sylpheed-2.4.3-X-src.tar.bz2
-  /usr/src/sylpheed-2.4.3-X.tar.bz2
+  /usr/src/sylpheed-2.4.4-X-src.tar.bz2
+  /usr/src/sylpheed-2.4.4-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/sylpheed.exe
-  /usr/share/doc/Cygwin/sylpheed-2.4.3.README
-  /usr/share/doc/sylpheed-2.4.3/ABOUT-NLS
-  /usr/share/doc/sylpheed-2.4.3/AUTHORS
-  /usr/share/doc/sylpheed-2.4.3/COPYING
-  /usr/share/doc/sylpheed-2.4.3/COPYING.LIB
-  /usr/share/doc/sylpheed-2.4.3/ChangeLog
-  /usr/share/doc/sylpheed-2.4.3/INSTALL
-  /usr/share/doc/sylpheed-2.4.3/LICENSE
-  /usr/share/doc/sylpheed-2.4.3/NEWS
-  /usr/share/doc/sylpheed-2.4.3/README
-  /usr/share/doc/sylpheed-2.4.3/TODO
+  /usr/share/doc/Cygwin/sylpheed-2.4.4.README
+  /usr/share/doc/sylpheed-2.4.4/ABOUT-NLS
+  /usr/share/doc/sylpheed-2.4.4/AUTHORS
+  /usr/share/doc/sylpheed-2.4.4/COPYING
+  /usr/share/doc/sylpheed-2.4.4/COPYING.LIB
+  /usr/share/doc/sylpheed-2.4.4/ChangeLog
+  /usr/share/doc/sylpheed-2.4.4/INSTALL
+  /usr/share/doc/sylpheed-2.4.4/LICENSE
+  /usr/share/doc/sylpheed-2.4.4/NEWS
+  /usr/share/doc/sylpheed-2.4.4/README
+  /usr/share/doc/sylpheed-2.4.4/TODO
   /usr/share/locale/be/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/bg/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/cs/LC_MESSAGES/sylpheed.mo
@@ -169,6 +169,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.4.4-1 -----
+Version bump.
 
 ----- version 2.4.3-1 -----
 Version bump.
