@@ -42,32 +42,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack sylpheed-2.4.5-X-src.tar.bz2
+  unpack sylpheed-2.4.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./sylpheed-2.4.5-X.cygport all
+  cygport ./sylpheed-2.4.6-X.cygport all
 
 This will create:
-  /usr/src/sylpheed-2.4.5-X-src.tar.bz2
-  /usr/src/sylpheed-2.4.5-X.tar.bz2
+  /usr/src/sylpheed-2.4.6-X-src.tar.bz2
+  /usr/src/sylpheed-2.4.6-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/sylpheed.exe
-  /usr/share/doc/Cygwin/sylpheed-2.4.5.README
-  /usr/share/doc/sylpheed-2.4.5/ABOUT-NLS
-  /usr/share/doc/sylpheed-2.4.5/AUTHORS
-  /usr/share/doc/sylpheed-2.4.5/COPYING
-  /usr/share/doc/sylpheed-2.4.5/COPYING.LIB
-  /usr/share/doc/sylpheed-2.4.5/ChangeLog
-  /usr/share/doc/sylpheed-2.4.5/INSTALL
-  /usr/share/doc/sylpheed-2.4.5/LICENSE
-  /usr/share/doc/sylpheed-2.4.5/NEWS
-  /usr/share/doc/sylpheed-2.4.5/README
-  /usr/share/doc/sylpheed-2.4.5/TODO
+  /usr/share/doc/Cygwin/sylpheed-2.4.6.README
+  /usr/share/doc/sylpheed-2.4.6/ABOUT-NLS
+  /usr/share/doc/sylpheed-2.4.6/AUTHORS
+  /usr/share/doc/sylpheed-2.4.6/COPYING
+  /usr/share/doc/sylpheed-2.4.6/COPYING.LIB
+  /usr/share/doc/sylpheed-2.4.6/ChangeLog
+  /usr/share/doc/sylpheed-2.4.6/INSTALL
+  /usr/share/doc/sylpheed-2.4.6/LICENSE
+  /usr/share/doc/sylpheed-2.4.6/NEWS
+  /usr/share/doc/sylpheed-2.4.6/README
+  /usr/share/doc/sylpheed-2.4.6/TODO
   /usr/share/locale/be/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/bg/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/cs/LC_MESSAGES/sylpheed.mo
@@ -169,6 +169,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.4.6-1 -----
+Version bump.
 
 ----- version 2.4.5-1 -----
 Version bump.
