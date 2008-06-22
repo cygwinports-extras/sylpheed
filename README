@@ -4,71 +4,71 @@ Sylpheed is a simple, lightweight but featureful, and easy-to-use e-mail
 client (mailer, MUA), based on the GTK toolkit.
 
 Runtime requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-15
   compface-1.5.2-1
-  gdk-pixbuf2-2.10.14-1
-  glib2-2.12.13-1
-  gtk2-x11-2.10.14-1
-  gtkspell-2.0.11-3
-  libaspell15-0.50.3-1
-  libcairo2-1.4.10-1
+  enchant-1.4.2-1
+  gdk-pixbuf2-2.12.10-1
+  glib2-2.16.3-1
+  gtk2-x11-2.12.10-1
+  gtkspell-2.0.13-1
+  libcairo2-1.6.4-1
   libgpgme11-1.1.5-1
   libiconv2-1.11-1
   libintl8-0.15-1
-  libopenldap2_3_0-2.3.36-1
+  libopenldap2_3_0-2.3.39-1
   minires-1.01-1
-  openssl-0.9.8e-3
-  pango-1.16.5-1
+  openssl-0.9.8h-1
+  pango-1.20.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
   automake1.4-1.4p6-3
-  binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
-  libtool1.5-1.5.23a-2
+  gnome-common-2.20.0-2
+  libtool-2.2.2-2
   make-3.81-1
-  pkg-config-0.21-1
+  pkg-config-0.23a-2
   sed-4.1.5-2
 
 Canonical website:
-  http://sylpheed.good-day.net/en/
+  http://sylpheed.sraoss.jp/en/
 
 Canonical download:
-  http://sylpheed.good-day.net/sylpheed/
+  http://sylpheed.sraoss.jp/sylpheed/
 
 -------------------------------------------
 
 Build instructions:
-  unpack sylpheed-2.4.7-X-src.tar.bz2
+  unpack sylpheed-2.5.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./sylpheed-2.4.7-X.cygport all
+  cygport ./sylpheed-2.5.0-X.cygport all
 
 This will create:
-  /usr/src/sylpheed-2.4.7-X-src.tar.bz2
-  /usr/src/sylpheed-2.4.7-X.tar.bz2
+  /usr/src/sylpheed-2.5.0-X-src.tar.bz2
+  /usr/src/sylpheed-2.5.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/sylpheed.exe
-  /usr/share/doc/Cygwin/sylpheed-2.4.7.README
-  /usr/share/doc/sylpheed-2.4.7/ABOUT-NLS
-  /usr/share/doc/sylpheed-2.4.7/AUTHORS
-  /usr/share/doc/sylpheed-2.4.7/COPYING
-  /usr/share/doc/sylpheed-2.4.7/COPYING.LIB
-  /usr/share/doc/sylpheed-2.4.7/ChangeLog
-  /usr/share/doc/sylpheed-2.4.7/INSTALL
-  /usr/share/doc/sylpheed-2.4.7/LICENSE
-  /usr/share/doc/sylpheed-2.4.7/NEWS
-  /usr/share/doc/sylpheed-2.4.7/README
-  /usr/share/doc/sylpheed-2.4.7/TODO
+  /usr/share/applications/sylpheed.desktop
+  /usr/share/doc/sylpheed-2.5.0/ABOUT-NLS
+  /usr/share/doc/sylpheed-2.5.0/AUTHORS
+  /usr/share/doc/sylpheed-2.5.0/COPYING
+  /usr/share/doc/sylpheed-2.5.0/COPYING.LIB
+  /usr/share/doc/sylpheed-2.5.0/ChangeLog
+  /usr/share/doc/sylpheed-2.5.0/INSTALL
+  /usr/share/doc/sylpheed-2.5.0/LICENSE
+  /usr/share/doc/sylpheed-2.5.0/NEWS
+  /usr/share/doc/sylpheed-2.5.0/README
+  /usr/share/doc/sylpheed-2.5.0/TODO
   /usr/share/locale/be/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/bg/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/cs/LC_MESSAGES/sylpheed.mo
@@ -99,6 +99,7 @@ Files included in the binary package:
   /usr/share/locale/vi/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/sylpheed.mo
+  /usr/share/pixmaps/sylpheed.png
   /usr/share/sylpheed/faq/de/sylpheed-faq-1.html
   /usr/share/sylpheed/faq/de/sylpheed-faq-2.html
   /usr/share/sylpheed/faq/de/sylpheed-faq-3.html
@@ -170,6 +171,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.5.0-1 -----
+Version bump.
 
 ----- version 2.4.7-1 -----
 Version bump.  Enabled LDAP support.

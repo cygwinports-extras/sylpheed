@@ -1,0 +1,17 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ email client"
+HOMEPAGE="http://sylpheed.sraoss.jp/en/"
+SRC_URI="http://sylpheed.good-day.net/${PN}/v${PV_MAJ_MIN}/${P}.tar.bz2"
+PATCH_URI="http://www.sraoss.jp/pipermail/sylpheed/attachments/20071224/48e8da44/attachment.bin"
+
+#DIFF_EXCLUDES="version.h"
+
+ACLOCAL_FLAGS="-I ac"
+CYGCONF_ARGS="
+	--enable-gtkspell
+	--enable-ldap
+	--disable-ipv6
+	--disable-rpath
+	--with-localedir=/usr/share/locale
+"
