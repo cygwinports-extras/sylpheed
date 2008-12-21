@@ -6,30 +6,30 @@ client (mailer, MUA), based on the GTK toolkit.
 Runtime requirements:
   cygwin-1.5.25-15
   compface-1.5.2-1
-  enchant-1.4.2-1
-  gdk-pixbuf2-2.12.10-1
-  glib2-2.16.3-1
-  gtk2-x11-2.12.10-1
-  gtkspell-2.0.13-1
-  libcairo2-1.6.4-1
-  libgpgme11-1.1.5-1
-  libiconv2-1.11-1
-  libintl8-0.15-1
-  libopenldap2_3_0-2.3.39-1
-  minires-1.01-1
-  openssl-0.9.8h-1
-  pango-1.20.3-1
+  libcairo2-1.8.6-1
+  libenchant1-1.4.2-2
+  libgdk_pixbuf2.0_0-2.14.5-1
+  libglib2.0_0-2.18.3-1
+  libgpgme11-1.1.6-1
+  libgtk2.0_0-2.14.5-1
+  libgtkspell0-2.0.15-1
+  libiconv2-1.12-1
+  libintl8-0.17-2
+  libopenldap2_3_0-2.3.43-1
+  libpango1.0_0-1.22.3-1
+  minires-1.02-1
+  openssl-0.9.8i-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.4-1.4p6-3
-  binutils-20080523-1
-  cygport-0.3.11-1
+  autoconf2.5-2.63-1
+  automake1.4-1.4p6-5
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
-  gnome-common-2.20.0-2
-  libtool-2.2.2-2
+  gnome-common-2.24.0-1
+  libtool-2.2.6a-1
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
@@ -43,15 +43,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack sylpheed-2.5.0-X-src.tar.bz2
+  unpack sylpheed-2.6.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./sylpheed-2.5.0-X.cygport all
+  cygport ./sylpheed-2.6.0-X.cygport all
 
 This will create:
-  /usr/src/sylpheed-2.5.0-X-src.tar.bz2
-  /usr/src/sylpheed-2.5.0-X.tar.bz2
+  /usr/src/sylpheed-2.6.0-X-src.tar.bz2
+  /usr/src/sylpheed-2.6.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,16 +59,16 @@ Files included in the binary package:
 
   /usr/bin/sylpheed.exe
   /usr/share/applications/sylpheed.desktop
-  /usr/share/doc/sylpheed-2.5.0/ABOUT-NLS
-  /usr/share/doc/sylpheed-2.5.0/AUTHORS
-  /usr/share/doc/sylpheed-2.5.0/COPYING
-  /usr/share/doc/sylpheed-2.5.0/COPYING.LIB
-  /usr/share/doc/sylpheed-2.5.0/ChangeLog
-  /usr/share/doc/sylpheed-2.5.0/INSTALL
-  /usr/share/doc/sylpheed-2.5.0/LICENSE
-  /usr/share/doc/sylpheed-2.5.0/NEWS
-  /usr/share/doc/sylpheed-2.5.0/README
-  /usr/share/doc/sylpheed-2.5.0/TODO
+  /usr/share/doc/sylpheed-2.6.0/ABOUT-NLS
+  /usr/share/doc/sylpheed-2.6.0/AUTHORS
+  /usr/share/doc/sylpheed-2.6.0/COPYING
+  /usr/share/doc/sylpheed-2.6.0/COPYING.LIB
+  /usr/share/doc/sylpheed-2.6.0/ChangeLog
+  /usr/share/doc/sylpheed-2.6.0/INSTALL
+  /usr/share/doc/sylpheed-2.6.0/LICENSE
+  /usr/share/doc/sylpheed-2.6.0/NEWS
+  /usr/share/doc/sylpheed-2.6.0/README
+  /usr/share/doc/sylpheed-2.6.0/TODO
   /usr/share/locale/be/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/bg/LC_MESSAGES/sylpheed.mo
   /usr/share/locale/cs/LC_MESSAGES/sylpheed.mo
@@ -171,6 +171,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.6.0-1 -----
+Version bump.
 
 ----- version 2.5.0-1 -----
 Version bump.
