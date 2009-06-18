@@ -7,8 +7,7 @@ SRC_URI="http://sylpheed.good-day.net/${PN}/v${PV_MAJ_MIN}/${P}.tar.bz2"
 ACLOCAL_FLAGS="-I ac"
 CYGCONF_ARGS="
 	--enable-gtkspell
+	--enable-ipv6
 	--enable-ldap
-	--disable-ipv6
-	--disable-rpath
 	--with-localedir=/usr/share/locale
 "
