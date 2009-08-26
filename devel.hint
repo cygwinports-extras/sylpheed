@@ -1,0 +1,6 @@
+category: Gnome Mail
+requires: sylpheed libglib2.0-devel libgtk2.0-devel libiconv gettext openssl-devel
+external-source: sylpheed
+sdesc: "GTK+ email client (plugin development)"
+ldesc: "Sylpheed is a simple, lightweight but featureful, and
+easy-to-use e-mail client (mailer, MUA), based on the GTK toolkit."

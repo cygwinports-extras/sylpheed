@@ -3,6 +3,12 @@ inherit gnome2
 DESCRIPTION="GTK+ email client"
 HOMEPAGE="http://sylpheed.sraoss.jp/en/"
 SRC_URI="http://sylpheed.good-day.net/${PN}/v${PV_MAJ_MIN}/${P}.tar.bz2"
+PATCH_URI="2.7.1-no-undefined.patch"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+sylpheed_CONTENTS="usr/bin/ usr/share/"
+sylpheed_devel_CONTENTS="usr/include/ usr/lib/"
 
 ACLOCAL_FLAGS="-I ac"
 CYGCONF_ARGS="
@@ -11,3 +17,4 @@ CYGCONF_ARGS="
 	--enable-ldap
 	--with-localedir=/usr/share/locale
 "
+DOCS="PLUGIN.txt PLUGIN.ja.txt README.*"
