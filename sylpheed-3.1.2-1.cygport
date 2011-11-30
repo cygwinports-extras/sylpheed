@@ -2,7 +2,7 @@ inherit gnome2
 
 DESCRIPTION="GTK+ email client"
 HOMEPAGE="http://sylpheed.sraoss.jp/en/"
-SRC_URI="http://sylpheed.good-day.net/${PN}/v${PV_MAJ_MIN}/${P}.tar.bz2"
+SRC_URI="http://sylpheed.sraoss.jp/sylpheed/v${PV_MAJ_MIN}/${P}.tar.bz2"
 PATCH_URI="2.7.1-no-undefined.patch"
 
 PKG_NAMES="${PN} ${PN}-devel"
