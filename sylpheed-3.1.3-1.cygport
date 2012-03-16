@@ -18,3 +18,4 @@ CYGCONF_ARGS="
 	--with-localedir=/usr/share/locale
 "
 DOCS="PLUGIN.txt PLUGIN.ja.txt README.*"
+KEEP_LA_FILES="none"
