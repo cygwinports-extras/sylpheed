@@ -1,0 +1,20 @@
+--- origsrc/sylpheed-3.3.0/libsylph/ssl.c	2009-12-07 20:04:18.000000000 -0600
++++ src/sylpheed-3.3.0/libsylph/ssl.c	2013-01-02 19:59:32.830994300 -0600
+@@ -83,7 +83,7 @@ void ssl_init(void)
+ 					"etc" G_DIR_SEPARATOR_S
+ 					"ssl" G_DIR_SEPARATOR_S "certs", NULL);
+ #else
+-		certs_dir = g_strdup("/etc/ssl/certs");
++		certs_dir = g_strdup("/usr/ssl/certs");
+ #endif
+ 		if (!is_dir_exist(certs_dir)) {
+ 			debug_print("ssl_init(): %s doesn't exist, or not a directory.\n",
+@@ -116,7 +116,7 @@ void ssl_init(void)
+ 			certs_dir = NULL;
+ 		}
+ #else
+-		certs_file = find_certs_file("/etc/ssl");
++		certs_file = find_certs_file("/usr/ssl");
+ 		if (!certs_file)
+ 			certs_file = find_certs_file("/etc");
+ #endif

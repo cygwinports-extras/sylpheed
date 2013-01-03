@@ -9,9 +9,11 @@ DESCRIPTION="Sylpheed is a simple, lightweight but featureful, and
 easy-to-use e-mail client (mailer, MUA), based on the GTK toolkit."
 HOMEPAGE="http://sylpheed.sraoss.jp/en/"
 SRC_URI="http://sylpheed.sraoss.jp/sylpheed/v${PV_MAJ_MIN}/${P}.tar.bz2"
-PATCH_URI="2.7.1-no-undefined.patch"
+PATCH_URI="2.7.1-no-undefined.patch
+           3.3.0-ca-certs.patch"
 
 PKG_NAMES="${PN} ${PN}-devel"
+sylpheed_REQUIRES="ca-certificates"
 sylpheed_CONTENTS="etc/ usr/bin/ usr/share/"
 sylpheed_devel_SUMMARY="${SUMMARY} (plugin development)"
 sylpheed_devel_REQUIRES="libglib2.0-devel libgtk2.0-devel libiconv openssl-devel"
